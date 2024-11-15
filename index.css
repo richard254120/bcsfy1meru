@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERU UNIVERSITY NEWS</title>
+    <style>
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+
+    <p class="blink">This is blinking text!</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking Text RICHARD </title>
+    <style>
+        .blink {
+            font-size: 24px;
+            color: red;
+            font-weight: bold;
+            animation: blink-animation 1s steps(5, start) infinite;
+        }
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <p class="blink">This is blinking text!</p>
+
+</body>
+</html>
+
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #005bb5;
+        }
+        header h1 {
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #003366;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Marquee CSS using animations */
+        .marquee {
+            width: 1.0;
+            overflow: block;
+            white-space: nowrap;
+            box-sizing: border-box;
+            background-color: rgb(255, 0, 0);
+        }
+        .marquee-text {
+            display: inline-block;
+            background-color: blue;
+            padding-right: 100%;
+            animation: marquee 15s linear infinite;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: hsl(0, 94%, 51%);
+        }
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MERU UNIVERSITY NEWS</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">Latest News</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <!-- Marquee Section -->
+        <div class="marquee">
+            <span class="marquee-text",colour-red",background-blue"> 
+                Welcome to Meru University News! Stay updated with the latest information, events, and announcements!
+            </span>
+        </div>
+
+        <p>Welcome to Meru University's official news site. Stay tuned for updates, events, and more.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meru University of Science and Technology. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking Text Example</title>
+    <style>
+        .blink {
+            font-size: 24px;
+            color: red;
+            font-weight: bold;
+            animation: blink-animation 1s steps(5, start) infinite;
+        }
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <p class="blink">This is blinking text!</p>
+
+</body>
+</html>
+
+
